@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests
         env: 
-          DATABASE_URL: 'postgresql://postgres:postgres@localhost:${{ job.services.postgres.ports[5432] }}/postgres'
+          DATABASE_URL: 'postgresql://postgres:postgres@localhost:${{ job.services.postgres.ports[5432] }}/postgres?ssl=true&sslmode=require'
           SALT_ROUNDS: '10'
           SECRET_KEY: 'khrfnksmsfdserjeildkrtjnhdrms'
           PORT: '3000'

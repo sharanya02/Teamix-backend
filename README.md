@@ -1,2 +1,2 @@
-# Engage21
-## an attempt to clone teams ?
+# Teamix
+An effortless communication solution to collaborate with your team remotely!

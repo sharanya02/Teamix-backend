@@ -41,4 +41,3 @@ jobs:
           SECRET_KEY: 'khrfnksmsfdserjeildkrtjnhdrms'
           PORT: '3000'
         run: npm test
-        
